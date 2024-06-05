@@ -103,7 +103,6 @@ void setup()
   attachInterrupt(digitalPinToInterrupt(flowsensor), flow, RISING);
    
   Serial.println("Temperature and Humidity Sensor Test");
-   
   Serial.println(" * READY * ");
   
   WiFi.mode(WIFI_STA);
